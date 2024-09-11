@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="game1.css">
+</head>
+
+<body>
+  
+    <div class="score1">
+    <h1 id="resultScore1"> Your Score : 0 </h1>
+</div>
+    <div class="game">
+        <h1>Let's Play a Game</h1>
+        <div class="game-icons">
+            <div id="g1">
+                <img src="https://fairuzald.github.io/arc-rock-paper-scissors/src/img/rock.png" alt="Rock" class="game-icon">
+               
+            </div>
+            <div class="g2">
+                <img src="https://amanchauhan112.github.io/Luffy.github.io/public/img/StonePaperScissor/paper_final.png" alt="Paper" class="game-icon">
+               
+            </div>
+            <div class="g3">
+                <img src="https://cdn3.iconfinder.com/data/icons/gestures-colored/163/Gestures-15-1024.png" alt="Scissor" class="game-icon">
+               
+            </div>
+        </div>
+
+        <div class="choices">
+         <button class="choice" onclick= "playGame('Rock')">Rock</button>
+        <button class="choice" onclick= "playGame('Paper')">Paper</button>
+        <button class="choice" onclick= "playGame('Scissor')">Scissor</button>
+        </div>
+
+        <div class="result">
+            <h3 id="resultMessage"> Make your move!!</h3>
+        </div>
+        <div class="result1">
+            <h3 id="resultMessage1">Choose Any One</h3>
+        </div>
+       
+    </div>
+    <div class="score2">
+        <!-- <h1 id="resultScore1" Scores></h1> -->
+        <h1 id="resultScore2">Computer Score : 0</h1>
+     </div>
+    
+
+    <script src="game1.js"></script>
+
+</body>
+
+</html>
